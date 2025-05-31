@@ -28,7 +28,7 @@ python -m pay_report.main <путь к вашему датасету> --report p
 python -m pay_report.main <путь к вашему датасету №1> <путь к вашему датасету №2> <...> --report payout
 ```
 
-### 2. Для запуска тестов
+### 3. Для запуска тестов
 ```bash
 pytest
 ```
