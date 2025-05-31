@@ -13,3 +13,22 @@
 ## Установка и запуск
 
 ### 1. Клонируйте репозиторий
+```bash
+git https://github.com/MontaGGGne/Workmate_junior_test.git
+```
+
+### 2. Для запуска скрипта
+#### Для запуска с 1-м набором данных:
+```bash
+python -m pay_report.main <путь к вашему датасету> --report payout
+```
+
+#### Для запуска с несколькими наборами данных:
+```bash
+python -m pay_report.main <путь к вашему датасету №1> <путь к вашему датасету №2> <...> --report payout
+```
+
+### 2. Для запуска тестов
+```bash
+pytest
+```
